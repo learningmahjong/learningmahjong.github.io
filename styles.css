@@ -1,0 +1,380 @@
+
+
+main {
+  margin: 1vh;
+  padding-top: 70px;
+}
+body {
+  margin: 0vh;
+  background-color: bisque;
+}
+
+p,
+h1,
+h2,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,
+span {
+  color: brown;
+}
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3vh;
+}
+h2 {
+  font-size: 2.8vh;
+}
+
+#logo {
+  height: 8.5vh;
+  width: 8.5vh;
+}
+
+table {
+  border-collapse: collapse;
+
+  background-color: rgb(19, 184, 143);
+}
+td {
+  border: 1px solid black;
+}
+.table2 {
+  margin-top: 30px;
+}
+strong {
+  font-size: 20px;
+}
+.list {font-weight: bold;
+  background-color: rgba(105, 189, 192, 0.315);
+  padding: 1vw;}
+.translate {
+  width: 7vh;
+  height: 4vh;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid black 1px;
+  font-size: 22px;
+  border-radius: 100px;
+  text-align: center;
+  margin-right: 1.5vw;
+}
+
+tr td:nth-child(2) {
+  width: 500vw;
+}
+
+.translate:hover {
+  background-color: rgb(44, 42, 42);
+  transition: ease 0.35s;
+  color: whitesmoke;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56, 194, 175);
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 1;
+}
+
+#logobutton {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.tiles {
+  display: none;
+  position: absolute;
+  left: -1vw;
+  width: 310px;
+}
+.numbers {
+  font-size: 3vw;
+  color: black;
+}
+
+.help {
+  height: 3vh;
+  width: 3vh;
+}
+tr td:nth-child(3) {
+  padding: 0vw;
+}
+tr td:nth-child(4) {
+  background-color: bisque;
+  border: bisque solid;
+}
+footer {
+  margin-top: 20px;
+}
+
+.helpbutton {
+  background-color: bisque;
+  border: transparent;
+  width: 1vw;
+  height: 1vw;
+  margin-right: 2vw;
+}
+
+.helpbutton {
+  cursor: pointer;
+}
+
+div {
+  position: relative;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen,
+.fifteen,
+.sixteen,
+.seventeen,
+.eighteen {
+  display: none;
+  position: absolute;
+  right: 1.2vh;
+  bottom: -4vh;
+  height: 17vw;
+  width: 90vw;
+}
+.seven {
+  display: none;
+  position: absolute;
+  right: 1vh;
+  bottom: -5vh;
+  height: 26vw;
+  width: 90vw;
+}
+
+footer {margin-top: 20vw;}
+
+
+
+
+
+@media screen and (min-width: 630px) {
+
+main {
+  margin: 1vw;
+  padding-top: 10vw;
+  
+}
+body {
+  margin: 0vw;
+  background-color: bisque;
+}
+p,
+h1,
+h2,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,
+span {
+  color: brown;
+}
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 2.8vw;
+}
+
+#logo {
+  height: 8.5vw;
+  width: 8.5vw;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+td {
+  border: 1px solid black;
+}
+.table2 {
+  margin-top: 2vw;
+}
+strong {
+  font-size: 2.5vw;
+ font-family: 'Courier New', Courier, monospace;
+}
+.translate {
+  width: 7.8vw;
+  height: 4.5vw;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid black 1px;
+  font-size: 3.2vw;
+  border-radius: 100px;
+  text-align: center;
+  margin-right: 1.5vw;
+}
+
+tr td:nth-child(2) {
+  width: 500vw;
+}
+
+.translate:hover {
+  background-color: rgb(44, 42, 42);
+  transition: ease 0.35s;
+  color: whitesmoke;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56, 194, 175);
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 1;
+}
+
+#logobutton {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.tiles {
+  display: none;
+  position: absolute;
+  left: 0vw;
+  width: 500%
+  
+}
+.numbers {
+  font-size: 3vw;
+  color: black;
+}
+
+.help {
+  height: 25px;
+  width: 25px;
+}
+tr td:nth-child(3) {
+  padding: 0vw;
+}
+tr td:nth-child(4) {
+  background-color: bisque;
+  border: bisque solid;
+}
+footer {
+  margin-top: 20px;
+}
+
+.helpbutton {
+  background-color: bisque;
+  border: transparent;
+  width: 1vw;
+  margin-right: 2vw;
+}
+
+.helpbutton {
+  cursor: pointer;
+}
+
+div {
+  position: relative;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen,
+.fifteen,
+.sixteen,
+.seventeen,
+.eighteen {
+  display: none;
+  position: absolute;
+  right: 1.2vw;
+  bottom: -4vw;
+  height: 17vw;
+  width: 90vw;
+}
+.seven {
+  display: none;
+  position: absolute;
+  right: 1vw;
+  bottom: -5vw;
+  height: 26vw;
+  width: 90vw;
+}
+
+footer {margin-top: 20vw;}
+
+}
+@media screen and (min-width: 680px) {
+
+  h4, p {font-size: 2vw;}
+}
+
+
+@media screen and (min-width: 1130px) {
+.tiles {
+  display: none;
+  position: absolute;
+  left: 0vw;
+  width: 530px; }
+
+  p,
+h1,
+h2,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,
+span {
+  color: brown;
+}
+h4, p {font-size: 22.7px;}
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 31.8px;
+}
+
+}
