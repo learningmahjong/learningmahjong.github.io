@@ -263,7 +263,7 @@ footer {
     display: none;
     position: absolute;
     left: 0vw;
-    width: 500%;
+    width: 500px;
   }
   .numbers {
     font-size: 3vw;
