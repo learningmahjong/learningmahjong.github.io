@@ -152,18 +152,18 @@ tr td:nth-child(1) {
 .eighteen {
   display: none;
   position: absolute;
-  left: 4vh;
+  left: 0vh;
   bottom: -3vh;
-  height: 17vw;
-  width: 90vw;
+  height: 18vw;
+  width: 99vw;
 }
 .seven {
   display: none;
   position: absolute;
- left: 4vh;
+ left: 0vh;
   bottom: -5vh;
-  height: 26vw;
-  width: 90vw;
+  height: 28vw;
+  width: 99vw;
 }
 
 footer {
