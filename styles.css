@@ -153,18 +153,18 @@ footer {
 .eighteen {
   display: none;
   position: absolute;
-  right: 4vh;
+  right: 0vh;
   bottom: -4vh;
-  height: 17vw;
-  width: 90vw;
+  height: 18vw;
+  width: 99vw;
 }
 .seven {
   display: none;
   position: absolute;
-  right: 4vh;
+  right: 0vh;
   bottom: -5vh;
-  height: 26vw;
-  width: 90vw;
+  height: 28vw;
+  width: 99vw;
 }
 
 footer {
